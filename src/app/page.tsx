@@ -4,7 +4,7 @@ import Home from "./components/home";
 import Latest from "./components/latest";
 import Products from "./components/products";
 import Offer from "./components/Offers";
-import Unique from "./components/Unique";
+
 import TrendingProducts from "./components/TrendingProducts";
 import Discount from "./components/Discount";
 import TopCategories from "./components/TopCategories";
@@ -26,7 +26,7 @@ const Page = () => {
             <Products /> {/* Corrected component name */}
             <Latest />
             <Offer />
-            <Unique />
+           
             <TrendingProducts />
             <Discount />
             <TopCategories />
