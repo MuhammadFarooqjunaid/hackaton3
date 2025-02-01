@@ -1,24 +1,14 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-import pinkBackground from '/public/images/pink.png'; // Importing pink background image
+// import pinkBackground from '/public/images/pink.png'; // Importing pink background image
 
 function Unique() {
   return (
     <div className="w-full bg-gray-100 py-20">
       <div className="w-full max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Side */}
-        <div className="relative flex justify-center items-center">
-          {/* Pink Background */}
-          <div className="absolute inset-0 flex justify-center items-center">
-            <Image
-              src={pinkBackground}
-              alt="Background"
-              layout="fill"
-              className="object-cover"
-            />
-          </div>
-
+    
           {/* Sofa Image */}
           <Image
             src="/images/sofa2.png"
